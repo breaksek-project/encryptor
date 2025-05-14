@@ -10,7 +10,6 @@ from rich.panel import Panel
 from rich import print as tulis
 from rich import print
 
-# Definisi warna teks ANSI
 Hitam = "\u001b[30m"
 Merah = "\u001b[31m"
 Hijau = "\u001b[32m"
@@ -24,7 +23,6 @@ Abu = "\u001b[90m"
 Orange_muda = "\u001b[38;5;214m"
 Putih = "\u001b[37m"
 
-# Kode warna ANSI
 Z2 = "[#000000]"  # Hitam
 M2 = "[#FF0000]"  # Merah
 H2 = "[#00FF00]"  # Hijau
@@ -41,7 +39,6 @@ T2 = "[#FFA500]"  # Oranye
 class ____LambdaObfuscators____:
     def __init__(self):
         current_time = datetime.datetime.now()
-        # Menggunakan triple quotes untuk string multibaris
         self.mzb = f"""#     *copyright: (C) © 2023 ~ breaksek
 # Time : {current_time}
 # Platform : {platform.platform()}
